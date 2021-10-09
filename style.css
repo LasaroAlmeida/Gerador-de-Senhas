@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("./shattered-island.gif");
+}
+
+#main{
+    width: 550px;
+    background: #c3c3c3;
+    border-radius: 0 20px 0 20px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+#title{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 5em;
+    color: purple;
+}
+#de{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-size: 2em;
+    font-weight: bold;
+    display: block;
+    text-decoration: underline;
+}
+#senha{
+    font-size: 3em;
+    font-family: 'Press Start 2P', cursive;
+    color: #de8971;
+}
+
+.container{
+    display: inline-block;
+    height:35px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+input{
+    width:60%;
+    height: 100%;
+    margin: 10px;
+    border-radius: 18px;
+    text-align: right;
+    border: none;
+    box-shadow: 5px 5px 10px #0076a3;
+}
+button{
+    border: none;
+    width: 20%;
+    height: 100%;
+    border-radius: 20px;
+    background: rgb(76, 76, 155);
+    color: #fff;
+    font-weight: 600;
+    box-shadow: 5px 5px 10px #2c6fad;
+}
+
+#res{
+    background: #fff;
+    margin-top: 30px;
+    box-shadow: 5px 5px 5px #2c6fad;
+    padding: 10px;
+    text-align: center;
+}
+h3{
+    text-align: left;
+    position: relative;
+    top: -10px;
+    font-family: 'Orbitron', sans-serif;
+    margin-bottom: 5px;
+}
+h6{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom: 2px solid #cca;
+    font-size: 0.8em;
+}
+
+#err{
+    font-family: sans-serif;
+    color: rgb(160, 28, 28);
+}
